@@ -29,10 +29,10 @@ function generatePassword(){
     if(length >= 8 && length <= 128){
 
       // Confirm user's desired password characters
-      LowC = confirm("Lowercase? Yes(OK) No(Cancel)");
-      UpC = confirm("Uppercase? Yes(OK) No(Cancel)");
-      Num = confirm("Numeric? Yes(OK) No(Cancel)");
-      SpeC = confirm("Special characters? Yes(OK) No(Cancel)");
+      LowC = confirm("Lowercase: Would you like your password to include lowercase characters? \n\nYes(OK) No(Cancel)");
+      UpC = confirm("Uppercase: Would you like your password to include uppercase characters? \n\nYes(OK) No(Cancel)");
+      Num = confirm("Numeric: Would you like your password to include numeric characters? \n\nYes(OK) No(Cancel)");
+      SpeC = confirm("Special characters: Would you like your password to include special characters? \n\nYes(OK) No(Cancel)");
 
       // User selected at least one character
       if(LowC == true || UpC == true || Num == true || SpeC == true){
