@@ -9,7 +9,8 @@ URL: https://spencercreer.github.io/password_generator/
 
 Repository: https://github.com/spencercreer/password_generator
 
-## Images
+## Animation
 
-The following image shows the web application's appearance once the user has completed all prompts: 
-<img src="Assets\password_generator_complete.PNG" alt="Password generator completed" width= 15% height= 15%> 
+The following animation demonstrates the application functionality:
+
+![Password Generator](./assets/password_generator.gif)
