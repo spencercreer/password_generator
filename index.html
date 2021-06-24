@@ -8,6 +8,7 @@
     <title>Password Generator</title>
     <!-- style.css -->
     <link rel="stylesheet" href="assets/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
 
   <body>
@@ -18,6 +19,19 @@
       <div class="card">
         <div class="card-header">
           <h2>Generate a Password</h2>
+          <p class="card-header-text">Password Criteria:</p>
+          <form class="card-header-form">
+            <label for="length">Length: </label>
+            <input type="number" id="length"name="length"><br>
+            <input type="checkbox" id="lowercase" name="lowercase" value="lowercase">
+            <label for="lowercase"></label>Lowercase<br>
+            <input type="checkbox" id="uppercase" name="uppercase" value="uppercase">
+            <label for="uppercase">Uppercase</label><br>
+            <input type="checkbox" id="numeric" name="numeric" value="numeric">
+            <label for="numeric">Numeric</label><br>
+            <input type="checkbox" id="specialChar" name="specialChar" value="specialChar">
+            <label for="specialChar">Special Characters</label><br>
+          </form>
         </div>
         <div class="card-body">
           <textarea
